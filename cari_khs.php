@@ -24,7 +24,9 @@ if (isset($_GET['cari'])) {
         <th>NIM</th>
         <th> Nama Mahasiswa </th>
         <th>Kode MK</th>
+        <th>Mata Kuliah</th>
         <th>Nilai</th>
+
 
     </tr>
     <?php
@@ -44,6 +46,7 @@ if (isset($_GET['cari'])) {
             <td><?php echo $r['NIM']; ?></td>
             <td><?php echo $r['nama']; ?></td>
             <td><?php echo $r['kodeMK']; ?></td>
+            <td><?php echo $r['MK']; ?></td>
             <td><?php echo $r['nilai']; ?></td>
 
         </tr>
